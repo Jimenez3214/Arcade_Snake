@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js" defer></script>
+</head>
+<body>
+    <div id="gameRules">
+        <h1>Snake</h1>
+        <h2>Rules:</h2>
+        <p>Eat Food(red) = 1pt increase speed</p>
+        <p>Eat Poison(purple) = -3pt decrease speed</p>
+        <P>Eat Spoiled Food(black) = GAME OVER</P>
+    </div>
+    <div id="game">
+        <canvas id="board" width="600" height="600"></canvas>
+        <div id="score">0</div>
+        <div id="highScore">0</div>
+        <button id = "startGame">start</button>
+        <button id="reset">reset</button>
+    </div>
+</body>
+</html>
