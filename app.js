@@ -79,7 +79,7 @@ let snake = [
         score -= 3;
         scoreBoard.textContent = `current score: ${score}`;
         poison();
-        speed += speedIncrease;
+        speed += speedDecrease;
 
     } else if(snake[0].x === badFoodX && snake[0].y === badFoodY){
       gameOver();
