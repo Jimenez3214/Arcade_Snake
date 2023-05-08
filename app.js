@@ -8,7 +8,7 @@ const startGame = document.querySelector('#startGame');
 const highestScore = document.querySelector('#highScore');
 //Game board
 const backgroundColor = 'lightgreen';
-const unitSize = 25;
+const unitSize = 15;
 const width = gameBoard.width;
 const height = gameBoard.height;
 
